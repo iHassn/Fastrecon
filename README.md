@@ -23,11 +23,15 @@ Please make sure that as most of these tools are written in Go ,that you have Go
 
 
 ## Installation
-
-- git clone https://github.com/iHassn/Fastrecon.git
-- chmod +x Fastrecon.sh
-- ./Fastrecon.sh
-
+```
+▶ git clone https://github.com/iHassn/Fastrecon.git
+```
+```
+▶ chmod +x Fastrecon.sh
+```
+```
+▶./Fastrecon.sh
+```
 ## Usage 
 is simple pretty easy
 ./Fastrecon.sh domain.com
