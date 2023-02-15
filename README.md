@@ -27,7 +27,7 @@ Please make sure that as most of these tools are written in Go ,that you have Go
 ▶ git clone https://github.com/iHassn/Fastrecon.git
 ```
 ```
-▶ chmod +x Fastrecon.sh
+▶ cd Fastrecon && chmod +x Fastrecon.sh
 ```
 ```
 ▶./Fastrecon.sh
