@@ -6,7 +6,7 @@
 ![This is an image](https://github.com/iHassn/Fastrecon/blob/main/.Usage.png)
 
 ## Setup
-To install EasyRecon, clone this repository. EasyRecon relies on a couple of tools to be installed so make sure you have them:
+To install Fastrecon, clone this repository. Fastrecon relies on a couple of tools to be installed so make sure you have them:
 * [subfinder](https://github.com/projectdiscovery/subfinder)
 * [httpx](https://github.com/projectdiscovery/httpx)
 * [waybackurls](https://github.com/tomnomnom/waybackurls)
