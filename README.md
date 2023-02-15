@@ -10,7 +10,7 @@ To install EasyRecon, clone this repository. EasyRecon relies on a couple of too
 * [subfinder](https://github.com/projectdiscovery/subfinder)
 * [httpx](https://github.com/projectdiscovery/httpx)
 * [waybackurls](https://github.com/tomnomnom/waybackurls)
-* 
+ 
 Please make sure that as most of these tools are written in Go ,that you have Go installed and configured properly, also make sure to add the path of those tools to your PATH env
 
 ## Feature
