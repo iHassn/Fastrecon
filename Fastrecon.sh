@@ -26,11 +26,37 @@ echo -e "\e[96m  	      ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀�
                                         by @h3x1L
                                         Version 1.0
                                                       	\e[0m"
-domain=$1
-if [[ -z $domain ]]; then
-	echo -e "Usage: ./FastRecon.sh <domain.com>"
-	exit 1
-fi
+	usage() {
+	    echo "Usage: ./FastRecon.sh -d <domain.com>"
+	}
+
+	while getopts ":hd:" opt; do
+	  case ${opt} in
+	    h )
+	      usage
+	      exit 0
+	      ;;
+	    d )
+	      domain=$OPTARG
+	      ;;
+	    \? )
+	      echo "Invalid option: -$OPTARG" 1>&2
+	      usage
+	      exit 1
+	      ;;
+	    : )
+	      echo "Invalid option: -$OPTARG requires an argument" 1>&2
+	      usage
+	      exit 1
+	      ;;
+	  esac
+	done
+
+	if [[ -z $domain ]]; then
+	    echo "Domain not provided"
+	    usage
+	    exit 1
+	fi
 	
 
 	# Check whether tools are exists or not
