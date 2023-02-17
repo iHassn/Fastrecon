@@ -34,4 +34,4 @@ Please make sure that as most of these tools are written in Go ,that you have Go
 ```
 ## Usage 
 is simple pretty easy
-./Fastrecon.sh domain.com
+./Fastrecon.sh -d domain.com
