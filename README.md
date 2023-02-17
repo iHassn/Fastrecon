@@ -3,7 +3,7 @@
   Fastrecon is a simple bash script that do automation for the initial reconnaissance of the target .
   
  
-![This is an image](https://github.com/iHassn/Fastrecon/blob/main/.Usage.png)
+![This is an image](https://github.com/iHassn/Fastrecon/blob/main/.usage.png)
 
 ## Setup
 To install Fastrecon, clone this repository. Fastrecon relies on a couple of tools to be installed so make sure you have them:
